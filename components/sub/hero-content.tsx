@@ -45,9 +45,9 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m an AI Engineer and Co-founder &amp; CTO @ Shiftora.ai, specializing in
-          intelligent workflow automations using Python, n8n, LangChain, and OpenAI.
-          I transform complex business processes into efficient, data-driven systems that scale.
+          AI Engineer and Co-founder &amp; CTO @ Shiftora.ai. I design and deploy
+          end-to-end automation pipelines using Python, LangChain, and large language models,
+          turning complex business workflows into scalable, self-operating systems.
         </motion.p>
 
         <motion.a
