@@ -90,19 +90,19 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/Sahil520021",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "Linkedin",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/sahil-mehra-a93549258/",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    link: "https://x.com",
   },
 ] as const;
 
@@ -259,23 +259,23 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Shiftora.ai - AI Automation Platform",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "Co-founded Shiftora.ai, an AI automation company that builds custom AI systems to automate business workflows, sales processes, and operations. We design and deploy end-to-end automation systems by integrating tools, AI agents, and data workflows to help companies increase productivity, reduce manual work, and scale without increasing headcount.",
     image: "/projects/project-1.png",
     link: "https://example.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "AI Ads & Analytics Automation",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Built Amazon Ads automation pipelines (ACOS, ROAS, bid modifiers) with real-time Excel and dashboard reporting, improving ad efficiency. Automated TikTok analytics and LinkedIn outreach, boosting engagement and response rates by 67%. Developed a keyword research and lead-generation engine, reducing manual effort by 80%.",
     image: "/projects/project-2.png",
     link: "https://example.com",
   },
   {
-    title: "Space Themed Website",
+    title: "AI-Driven Hiring & Outreach System",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "Developed an AI-driven LinkedIn hiring headhunt system, automating candidate sourcing and outreach. Built an automated cold emailing tool that personalizes messages at scale, increasing outreach effectiveness by 67%. Created a keyword research automation engine, reducing research time by 80% for digital marketing campaigns.",
     image: "/projects/project-3.png",
     link: "https://example.com",
   },
@@ -286,19 +286,19 @@ export const FOOTER_DATA = [
     title: "Community",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Sahil520021",
       },
       {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        name: "Linkedin",
+        icon: RxLinkedinLogo,
+        link: "https://www.linkedin.com/in/sahil-mehra-a93549258/",
+      },
+      {
+        name: "Twitter",
+        icon: RxTwitterLogo,
+        link: "https://x.com",
       },
     ],
   },
@@ -311,14 +311,14 @@ export const FOOTER_DATA = [
         link: "https://instagram.com",
       },
       {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
-      },
-      {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/sahil-mehra-a93549258/",
+      },
+      {
+        name: "GitHub",
+        icon: RxGithubLogo,
+        link: "https://github.com/Sahil520021",
       },
     ],
   },
@@ -326,19 +326,19 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Shiftora.ai",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://shiftora.ai",
       },
       {
         name: "Learning about me",
         icon: null,
-        link: "https://example.com",
+        link: "https://www.linkedin.com/in/sahil-mehra-a93549258/",
       },
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:sahilmehra0507@gmail.com",
       },
     ],
   },
@@ -360,5 +360,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/Sahil520021/Sahil-Portfolio",
 };
