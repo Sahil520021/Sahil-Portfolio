@@ -13,11 +13,12 @@ import type { Points as PointsType } from "three";
 export const StarBackground = (props: PointsInstancesProps) => {
   const ref = useRef<PointsType | null>(null);
   const [sphere] = useState(() => {
-    const positions = random.inSphere(new Float32Array(5000), { radius: 1.2 }) as Float32Array;
-    for (let i = 0; i < positions.length; i++) {
-      if (isNaN(positions[i])) positions[i] = 0;
+    const arr = new Float32Array(5001);
+    random.inSphere(arr, { radius: 1.2 });
+    for (let i = 0; i < arr.length; i++) {
+      if (isNaN(arr[i])) arr[i] = 0;
     }
-    return positions;
+    return arr;
   });
 
   useFrame((_state, delta) => {
